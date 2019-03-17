@@ -1,0 +1,22 @@
+/------------------------------------------------------------------------------------------------------------------\
+| W           W  EEEE   L        CCC    OOOO    M       M   EEEE         TTTTTTT    OOOO         AAAAAAA  AAAAAAA  |
+|  W         W   E      L       C   C  O    O   MM     MM   E               T      O    O           A        A     |
+|   W   W   W    EEE    L       C      O    O   M M   M M   EEEE            T      O    O           A        A     |
+|    W W W W     E      L       C      O    O   M  M M  M   E               T      O    O           A        A     |
+|     W   W      EEEE   LLLLL    CCC    OOOO    M   M   M   EEEE            T       OOOO            A        A     |
+\------------------------------------------------------------------------------------------------------------------/
+
+/--------------------------------------------\
+| MADE BY ASRIEL2015 FOR EASELY USING TERMUX.|
+\--------------------------------------------/
+
+/------------------------------------\
+|  1. Upgrade Termux packets         |
+|                                    |
+|  2. Let Termux open storage        |
+|                                    |
+|  3. Install Python 2.7             |
+|                                    |
+|  4. Open storage                   |
+|                                    |
+\------------------------------------/
