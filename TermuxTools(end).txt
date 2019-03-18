@@ -1,0 +1,11 @@
+/------------------------------------\
+|  BBBBB       Y     Y    EEEEEE   I |
+|  B    B       Y   Y     E        I |
+|  B    B        Y Y      E        I |
+|  B    B         Y       E        I |
+|  BBBBB          Y       EEEEE    I |
+|  B    B         Y       E        I |
+|  B    B         Y       E        I |
+|  B    B         Y       E          |
+|  BBBBB          Y       EEEEEE   O |
+\------------------------------------/
