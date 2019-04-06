@@ -1,4 +1,5 @@
 import time
+import os
 #-----------------------------------------------------------------------------------------
 file1 = "TermuxTools(eng).txt"
 startfile1 = open(file1, mode = 'r', encoding = 'ascii')
@@ -7,22 +8,24 @@ print (startfile1.read())
 c = int(input("choose the command:"))
 #------------------------------------------------------------------------------------------
 if c==1:
-	print('paste its: apt upgrade')
+	os.system('apt update && apt upgrade -y')
+	os.system('pkg update && pkg upgrade -y')
 	time.sleep(3)
 if c==2:
-	print('paste its: termux-setup-storage')
+	os.system('termux-setup-storage')
 	time.sleep(3)
 if c==3:
-	print('paste its: apt install python2')
+	os.system('apt install python2 -y')
 	time.sleep(3)
 if c==4:
-	print('paste its: cd /storage/emulated/0')
+	os.system('cd /storage/emulated/0')
+	os.system('ls')
 	time.sleep(3)
 if c==5:
-	print('paste its: git clone https://github.com/Aizek05/TermuxTools')
+	os.system('git clone https://github.com/Aizek05/TermuxTools')
 	time.sleep(3)
 if c==6:
-	print('paste its: pkg install nmap -y')
+	os.system('pkg install nmap -y')
 	time.sleep(3)
-if c>4:
+if c>6:
 	print('invalid number!')
